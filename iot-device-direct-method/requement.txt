@@ -1,0 +1,2 @@
+azure-iothub-device-client
+azure-iothub-service-client
