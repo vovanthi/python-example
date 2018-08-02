@@ -9,6 +9,7 @@
 https://github.com/Azure/azure-iot-sdk-python/blob/master/device/doc/package-readme.md
 
 # IoT Hub Python Module on Windows OS
+* Python3.5
 
 ```
 # create python3.5 env
@@ -19,8 +20,28 @@ python3.5 -m venv env
 
 # install python library
 python -m pip install -r requement.txt
+```
+
+# IoT Hub Python Module on Ubuntu
+* Python3.5
+```
+# install libboost-all-dev
+apt-get install libboost-all-dev
+
+# install libcurl4-openssl-dev
+apt-get install libcurl4-openssl-dev
+
+# create python3.5 env
+python3.5 -m venv env
+
+# active env
+.\env\Script\activate
+
+# install python library
+python -m pip install -r requement.txt
 
 ```
+
 # 実行
 
 ```
