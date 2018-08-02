@@ -50,7 +50,7 @@ python direct-method.py
 ```
 
 # 課題
-Linux、Docker環境上に動作しない
+~~Linux~~、Docker環境上に動作しない
 
 # 参考（ほぼコピー）
 [Edge側実装](
